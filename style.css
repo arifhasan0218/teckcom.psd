@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background: black;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 4%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo img{
+    width: 120px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    margin: 12px 10px;
+}
+
+.navbar ul li a{
+    padding: 12px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+.navbar ul li a:hover, 
+.navbar ul li .active
+{
+    color: #b7ff80;
+}
+
+.register a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:30px ;
+}
+.register a:hover{
+    color: #b7ff80;
+}
+.register a:last-child{
+    background: #333333;
+    padding: 12px 30px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.register a:last-child:hover{
+    background: #b7ff80;
+    color: #333333;
+}
+
+.container{
+    padding: 30px 10%;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.home-text{
+    flex-basis: 48%;
+}
+
+.home-img{
+    flex-basis: 48%;
+}
+
+.home-text h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.home-content .home-text h1 span{
+    color: #b7ff80;
+}
+
+.home-text p{
+    font-size: 14px;
+    line-height: auto;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.btn{
+    color: #333333;
+    background: #b7ff80;
+    padding: 10px 40px;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn:hover{
+    background: #b7ff80;
+    transform: translateX(80px);
+    color: #fff;
+}
+
+.home-img img{
+    width: 600px;
+}
+
